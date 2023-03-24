@@ -2,7 +2,7 @@
 import turtle
 import math
 turtle.shape('turtle')
-turtle.speed(3)
+turtle.speed(10)
 def manyangle(angles, rad):
     angle = 360/angles
     a = rad * 2 * math.sin(math.radians(360 / (2 * angles)))
